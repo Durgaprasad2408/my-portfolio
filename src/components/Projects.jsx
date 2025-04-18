@@ -11,7 +11,7 @@ const Projects = () => {
       id: 1,
       title: "Hands-United",
       description: "A platform where users can exchange skills between one another",
-      image: "/handsunited.png",
+      image: "/hands-united.png",
       tags: ["React", "Supabase", "Javascript", "TailwindCSS"],
       link: "https://hands-united.vercel.app/",
       github: "https://github.com/Durgaprasad2408/Hands-United"
