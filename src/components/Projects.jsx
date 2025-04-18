@@ -12,7 +12,7 @@ const Projects = () => {
       title: "Hands-United",
       description: "A platform where users can exchange skills between one another",
       image: "hu.png",
-      tags: ["React", "Node.js", "MongoDB"],
+      tags: ["React", "Supabase", "Javascript", "TailwindCSS"],
       link: "https://hands-united.vercel.app/",
       github: "https://github.com/Durgaprasad2408/Hands-United"
     },
@@ -21,7 +21,7 @@ const Projects = () => {
       title: "Resume Builder",
       description: "Resume Builer with ATS compatibility",
       image: "https://images.unsplash.com/photo-1488590528505-98d2b5aba04b",
-      tags: ["React", "API Integration", "CSS"],
+      tags: ["React", "Typescript", "TailwindCSS"],
       link: "https://ats-resume-builder-v1.vercel.app/",
       github: "https://github.com/Durgaprasad2408/ATS-Resume-Builder"
     },
@@ -30,7 +30,7 @@ const Projects = () => {
       title: "Lesson PLanner",
       description: "An application where users can plan their lessons",
       image: "https://images.unsplash.com/photo-1461749280684-dccba630e2f6",
-      tags: ["React", "Firebase", "Tailwind"],
+      tags: ["React", "Gemini API", "TailwindCSS", "Typescript"],
       link: "#",
       github: "#"
     }

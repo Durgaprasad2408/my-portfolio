@@ -36,7 +36,7 @@ const Hero = () => {
 
           {/* Social Icons */}
           <div className="flex flex-wrap gap-6 mb-8">
-            <a href="https://github.com" target="_blank" rel="noopener noreferrer"
+            <a href="https://github.com/Durgaprasad2408" target="_blank" rel="noopener noreferrer"
               className="flex items-center gap-2 p-2 bg-white rounded-full shadow-md hover:shadow-lg hover:text-purple-600 transition-all duration-300 transform hover:scale-105">
               <Github className="h-5 w-5" />
               <span className="font-medium">GitHub</span>
@@ -46,7 +46,7 @@ const Hero = () => {
               <Linkedin className="h-5 w-5" />
               <span className="font-medium">LinkedIn</span>
             </a>
-            <a href="mailto:your.email@example.com"
+            <a href="mailto:durgaprasadpandiripalli@outlook.com"
               className="flex items-center gap-2 p-2 bg-white rounded-full shadow-md hover:shadow-lg hover:text-purple-600 transition-all duration-300 transform hover:scale-105">
               <Mail className="h-5 w-5" />
               <span className="font-medium">Email</span>
