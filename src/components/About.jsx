@@ -91,9 +91,9 @@ const About = () => {
                 <Award className="w-6 h-6" />
               </div>
               <div>
-                <h4 className="font-semibold text-purple-800">Web Development Bootcamp</h4>
-                <p className="text-gray-700">Bootcamp Name</p>
-                <p className="text-sm text-gray-500 mt-1">2023</p>
+                <h4 className="font-semibold text-purple-800">Full-stack Development</h4>
+                <p className="text-gray-700">Udemy</p>
+                <p className="text-sm text-gray-500 mt-1">2024 - 2025</p>
               </div>
             </div>
           </div>
