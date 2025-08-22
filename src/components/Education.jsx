@@ -1,4 +1,3 @@
-// src/components/Education.jsx
 const Education = () => {
   return (
     <section id="education" className="py-20 bg-gray-50">

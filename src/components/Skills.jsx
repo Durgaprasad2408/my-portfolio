@@ -1,4 +1,3 @@
-// src/components/Skills.jsx
 import { useState, useEffect } from 'react';
 
 

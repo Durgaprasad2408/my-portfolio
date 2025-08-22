@@ -1,4 +1,3 @@
-// src/components/About.jsx
 const About = () => {
   const personalInfo = [
     { icon: "fas fa-user", label: "Name", value: "DurgaPrasad Pandiripalli" },
@@ -21,7 +20,7 @@ const About = () => {
               <div className="tilt bg-gradient-to-br from-indigo-600 to-purple-600 p-1 rounded-lg max-w-md mx-auto">
                 <div className="tilt-inner bg-white p-6 rounded-lg shadow">
                   <img 
-                    src="https://images.pexels.com/photos/2379004/pexels-photo-2379004.jpeg?auto=compress&cs=tinysrgb&w=400" 
+                    src="/photo.jpg" 
                     alt="DurgaPrasad" 
                     className="w-full h-80 object-cover rounded-lg"
                   />
@@ -30,7 +29,7 @@ const About = () => {
             </div>
           </div>
           <div className="md:w-4/6 md:pl-10" data-aos="fade-left" data-aos-duration="1000">
-            <h3 className="text-2xl font-semibold mb-4 gradient-text">Full-Stack Developer & B.Tech Student</h3>
+            <h3 className="text-2xl font-semibold mb-4 gradient-text">Full-Stack Developer</h3>
             <p className="text-gray-600 mb-4">
               I'm a passionate full-stack developer currently pursuing my B.Tech degree. With a strong foundation in both frontend and backend technologies, I enjoy creating seamless user experiences and robust server-side solutions.
             </p>

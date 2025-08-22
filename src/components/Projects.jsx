@@ -1,4 +1,3 @@
-// src/components/Projects.jsx
 import { useState } from 'react';
 
 const Projects = () => {

@@ -1,4 +1,3 @@
-// src/components/Hero.jsx
 import { useEffect } from 'react';
 
 const Hero = () => {
@@ -82,7 +81,7 @@ const Hero = () => {
             <div className="relative floating">
               <div className="w-64 h-64 md:w-80 md:h-80 rounded-full overflow-hidden border-8 border-white shadow-2xl bg-gradient-to-br from-indigo-600 to-purple-600 p-2">
                 <img 
-                  src="https://images.pexels.com/photos/2379004/pexels-photo-2379004.jpeg?auto=compress&cs=tinysrgb&w=400" 
+                  src="/photo.jpg" 
                   alt="DurgaPrasad" 
                   className="w-full h-full object-cover rounded-full"
                 />

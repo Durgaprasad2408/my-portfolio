@@ -122,7 +122,7 @@ const Contact = () => {
                       <p className="text-gray-600">{info.value}</p>
                       <a
                         href={info.link}
-                        target={info.title === 'Location' ? '_blank' : '_self'}
+                        target="_blank" 
                         rel={info.title === 'Location' ? 'noreferrer' : ''}
                         className="text-indigo-600 hover:text-indigo-800 transition mt-1 inline-block"
                       >

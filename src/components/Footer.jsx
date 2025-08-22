@@ -1,4 +1,3 @@
-// src/components/Footer.jsx
 const Footer = () => {
   return (
     <footer className="bg-gray-900 text-white py-10">
@@ -9,16 +8,16 @@ const Footer = () => {
             <p className="text-gray-400 mt-2">Full-Stack Developer & B.Tech Student</p>
           </div>
           <div className="flex space-x-6">
-            <a href="#" className="text-gray-400 hover:text-white transition">
+            <a href="https://github.com/Durgaprasad2408" target="_blank" className="text-gray-400 hover:text-white transition">
               <i className="fab fa-github text-xl"></i>
             </a>
-            <a href="#" className="text-gray-400 hover:text-white transition">
+            <a href="https://www.linkedin.com/in/durga-prasad-pandiripalli-5b97ab264" target="_blank" className="text-gray-400 hover:text-white transition">
               <i className="fab fa-linkedin-in text-xl"></i>
             </a>
-            <a href="#" className="text-gray-400 hover:text-white transition">
+            <a href="#" target="_blank" className="text-gray-400 hover:text-white transition">
               <i className="fab fa-twitter text-xl"></i>
             </a>
-            <a href="#" className="text-gray-400 hover:text-white transition">
+            <a href="mailto:durgaprasadpandiripalli@outlook.com" target="_blank" className="text-gray-400 hover:text-white transition">
               <i className="fas fa-envelope text-xl"></i>
             </a>
           </div>
