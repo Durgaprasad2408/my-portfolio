@@ -7,7 +7,7 @@ const Projects = () => {
     {
       id: 1,
       title: "Hotel Booking Platform",
-      description: "A full-stack e-commerce platform with product catalog, user authentication, and payment integration.",
+      description: "A full-stack hotel reservation Platform with MERN, secure user authentication via Clerk, and integrated Stripe for seamless payments.",
       image: "/GrandSuite.png",
       gradient: "from-indigo-500 to-purple-600",
       technologies: ["React", "Node.js","Express.js", "MongoDB", "Stripe"],
@@ -17,7 +17,7 @@ const Projects = () => {
     {
       id: 2,
       title: "Hands-United",
-      description: "A collaborative task management application with real-time updates and team collaboration features.",
+      description: "A peer-to-peer learning platform connecting mentors and learners with real-time chat and personalized skill-sharing.",
       image: "/HandsUnited.png",
       gradient: "from-green-500 to-teal-600",
       technologies: ["React", "Supabase", "SQL", "Tailwind CSS"],
@@ -27,7 +27,7 @@ const Projects = () => {
     {
       id: 3,
       title: "NeuroEase - Mood Journal APP",
-      description: "An interactive analytics dashboard with data visualization and real-time metrics tracking.",
+      description: "A mental health tracking platform with mood logging, journaling, and visual insights to help users understand and reflect on their emotional wellness.",
       image: '/Neuroease.png',
       gradient: "from-yellow-500 to-orange-600",
       technologies: ["React", "Tailwind CSS", "FireBase", "SQL"],
@@ -37,7 +37,7 @@ const Projects = () => {
     {
       id: 4,
       title: "Music Player",
-      description: "A modern portfolio website with smooth animations and responsive design.",
+      description: "A music streaming application replicating Spotify’s core features, including playlists, search, and real-time audio playback with an interactive UI.",
       image: "/Harmony.png",
       gradient: "from-purple-500 to-indigo-600",
       technologies: ["React", "Tailwind CSS", "Supabase", "Vite"],
@@ -47,7 +47,7 @@ const Projects = () => {
     {
       id: 5,
       title: "MuseAI App",
-      description: "A modern social media platform with real-time messaging, posts, and user interactions.",
+      description: "An AI-powered writing assistant that helps users create, enhance, and refine stories, poems, and essays effortlessly and intelligently.",
       image: "/MuseAI.png",
       gradient: "from-pink-500 to-red-600",
       technologies: ["React", "Supabase", "Bolt", "SQL"],
@@ -57,7 +57,7 @@ const Projects = () => {
     {
       id: 6,
       title: "Spotify Clone",
-      description: "A responsive weather application with location-based forecasts and interactive maps.",
+      description: "Spotify frontend clone featuring responsive design, music library browsing, playlist management, and interactive user interface for seamless music exploration.",
       image: "/Spotify.png",
       gradient: "from-blue-500 to-cyan-600",
       technologies: ["React", "TailwindCSS", "", "CSS3"],
@@ -94,15 +94,21 @@ const Projects = () => {
         
         <div className="project-overlay">
           <div className="text-white text-center px-4">
-            <h4 className="text-xl font-bold mb-2">{project.title}</h4>
-            <p className="mb-4">{project.description}</p>
+            
             <div className="flex justify-center space-x-4">
-              <a href={project.github} target='_blank' className="bg-white text-indigo-600 w-10 h-10 rounded-full flex items-center justify-center hover:bg-opacity-90 transition">
-                <i className="fab fa-github"></i>
-              </a>
-              <a href={project.live} target='_blank' className="bg-white text-indigo-600 w-10 h-10 rounded-full flex items-center justify-center hover:bg-opacity-90 transition">
-                <i className="fas fa-external-link-alt"></i>
-              </a>
+              <div className = "flex flex-col items-center justify-center">
+                <a href={project.github} target='_blank' className="bg-white text-indigo-600 w-10 h-10 rounded-full flex items-center justify-center hover:bg-opacity-90 transition">
+                  <i className="fab fa-github"></i>
+                </a>
+                <span>Github</span>
+              </div>
+              
+              <div className = "flex flex-col items-center justify-center">
+                <a href={project.live} target='_blank' className="bg-white text-indigo-600 w-10 h-10 rounded-full flex items-center justify-center hover:bg-opacity-90 transition">
+                  <i className="fas fa-external-link-alt"></i>
+                </a>
+                <span>Live</span>
+              </div>
             </div>
           </div>
         </div>
