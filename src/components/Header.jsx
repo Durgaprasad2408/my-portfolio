@@ -4,7 +4,7 @@ const Header = () => {
   const [mobileOpen, setMobileOpen] = useState(false);
 
   return (
-    <header className="fixed top-0 left-0 w-full bg-white/90 backdrop-blur-md z-50 shadow-sm transition-all duration-300" id="header">
+    <header className="px-32 fixed top-0 left-0 w-full bg-white/90 backdrop-blur-md z-50 shadow-sm transition-all duration-300" id="header">
       <div className="container mx-auto px-4 py-3">
         <div className="flex justify-between items-center">
           <a href="#" className="text-2xl font-bold">

@@ -45,7 +45,7 @@ const Hero = () => {
   ];
 
   return (
-    <section id="home" className="relative min-h-screen flex items-center pt-20 overflow-hidden">
+    <section id="home" className="px-32 relative min-h-screen flex items-center pt-20 overflow-hidden">
       <div className="animated-bg">
         {Array.from({ length: 20 }, (_, i) => (
           <span key={i} style={{ '--i': 11 + i }}></span>

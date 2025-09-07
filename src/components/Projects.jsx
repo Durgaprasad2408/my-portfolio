@@ -131,7 +131,7 @@ const Projects = () => {
   const hasMoreProjects = projectsData.length > visibleProjects.length;
 
   return (
-    <section id="projects" className="py-20 bg-white">
+    <section id="projects" className="px-32 py-20 bg-white">
       <div className="container mx-auto px-4">
         <div className="text-center mb-16" data-aos="fade-up">
           <h2 className="text-3xl font-bold mb-2">My <span className="gradient-text">Projects</span></h2>
