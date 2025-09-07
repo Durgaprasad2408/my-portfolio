@@ -7,7 +7,7 @@ const About = () => {
   ];
 
   return (
-    <section id="about" className="px-32 py-20 bg-white">
+    <section id="about" className="h-screen px-32 py-20 bg-white">
       <div className="container mx-auto px-4">
         <div className="text-center mb-16" data-aos="fade-up">
           <h2 className="text-3xl font-bold mb-2">About <span className="gradient-text">Me</span></h2>
@@ -22,7 +22,7 @@ const About = () => {
                   <img 
                     src="/photo.jpg" 
                     alt="DurgaPrasad" 
-                    className="w-full object-cover rounded-lg"
+                    className="w-full h-96 object-cover rounded-lg"
                   />
                 </div>
               </div>
