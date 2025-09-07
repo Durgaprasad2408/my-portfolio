@@ -79,7 +79,7 @@ const Hero = () => {
           </div>
           <div className="md:w-1/2 flex justify-center" data-aos="fade-left" data-aos-duration="1000">
             <div className="relative floating">
-              <div className="w-64 h-64 md:w-80 md:h-80 rounded-full overflow-hidden border-8 border-white shadow-2xl bg-gradient-to-br from-indigo-600 to-purple-600 p-2">
+              <div className="w-64 h-64 md:w-80 md:h-80 rounded-full overflow-hidden border-0 border-white shadow-2xl bg-gradient-to-br from-indigo-600 to-purple-600 p-2">
                 <img 
                   src="/photo.jpg" 
                   alt="DurgaPrasad" 
