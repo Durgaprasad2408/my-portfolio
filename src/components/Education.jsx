@@ -1,6 +1,6 @@
 const Education = () => {
   return (
-    <section id="education" className="px-32 py-20 bg-gray-50">
+    <section id="education" className="px-32 py-20 bg-gray-50 scroll-mt-10">
       <div className="container mx-auto px-4">
         <div className="text-center mb-16" data-aos="fade-up">
           <h2 className="text-3xl font-bold mb-2">My <span className="gradient-text">Education</span></h2>

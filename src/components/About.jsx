@@ -7,22 +7,22 @@ const About = () => {
   ];
 
   return (
-    <section id="about" className="h-screen px-32 py-20 bg-white">
+    <section id="about" className="h-screen px-32 py-10 bg-white scroll-mt-14">
       <div className="container mx-auto px-4">
-        <div className="text-center mb-16" data-aos="fade-up">
+        <div className="text-center mb-10" data-aos="fade-up">
           <h2 className="text-3xl font-bold mb-2">About <span className="gradient-text">Me</span></h2>
           <div className="w-24 h-1 bg-gradient-to-r from-indigo-600 to-purple-600 mx-auto"></div>
         </div>
         
         <div className="flex flex-col md:flex-row items-center">
-          <div className="md:w-2/5 mb-8 md:mb-0" data-aos="fade-right" data-aos-duration="1000">
+          <div className="md:w-2/5 mb-4 md:mb-0" data-aos="fade-right" data-aos-duration="1000">
             <div className="relative">
               <div className="tilt bg-gradient-to-br from-indigo-600 to-purple-600 p-1 rounded-lg max-w-md mx-auto">
-                <div className="tilt-inner bg-white p-6 rounded-lg shadow">
+                <div className="tilt-inner bg-white p-4 rounded-lg shadow">
                   <img 
                     src="/photo.jpg" 
                     alt="DurgaPrasad" 
-                    className="w-full h-96 object-cover rounded-lg"
+                    className="w-full h-116 object-cover rounded-lg"
                   />
                 </div>
               </div>

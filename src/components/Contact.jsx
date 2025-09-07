@@ -97,9 +97,9 @@ const Contact = () => {
   };
 
   return (
-    <section id="contact" className=" px-32 py-20 bg-white">
+    <section id="contact" className=" px-32 py-10 bg-white scroll-mt-14">
       <div className="container mx-auto px-4">
-        <div className="text-center mb-12" data-aos="fade-up">
+        <div className="text-center mb-10" data-aos="fade-up">
           <h2 className="text-3xl font-bold mb-2">
             Get In <span className="gradient-text">Touch</span>
           </h2>
@@ -154,10 +154,10 @@ const Contact = () => {
           {/* Form */}
           <div className="md:w-1/2" data-aos="fade-left" data-aos-duration="1000">
             <form onSubmit={handleSubmit} className="bg-gray-50 p-6 rounded-xl shadow-md">
-              <h3 className="text-xl font-semibold mb-5 gradient-text">Send Me a Message</h3>
+              <h3 className="text-xl font-semibold mb-4 gradient-text">Send Me a Message</h3>
 
               {['name','email','subject','message'].map((field, idx) => (
-                <div key={idx} className="mb-4">
+                <div key={idx} className="mb-2">
                   <label
                     htmlFor={field}
                     className="block text-gray-700 mb-2 font-medium"
@@ -167,7 +167,7 @@ const Contact = () => {
                   {field === 'message' ? (
                     <textarea
                       id={field}
-                      rows={3}
+                      rows={2}
                       className="contact-input"
                       placeholder={`Your ${field}`}
                       value={formData[field]}

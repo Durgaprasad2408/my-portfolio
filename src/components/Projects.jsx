@@ -9,7 +9,6 @@ const Projects = () => {
       title: "Hotel Booking Platform",
       description: "A full-stack hotel reservation Platform with MERN, secure user authentication via Clerk, and integrated Stripe for seamless payments.",
       image: "/GrandSuite.png",
-      gradient: "from-indigo-500 to-purple-600",
       technologies: ["React", "Node.js","Express.js", "MongoDB", "Stripe"],
       github: "https://github.com/Durgaprasad2408/Hotel_Booking",
       live: "https://grand-suite.vercel.app/"
@@ -19,7 +18,6 @@ const Projects = () => {
       title: "Hands-United",
       description: "A peer-to-peer learning platform connecting mentors and learners with real-time chat and personalized skill-sharing.",
       image: "/HandsUnited.png",
-      gradient: "from-green-500 to-teal-600",
       technologies: ["React", "Supabase", "SQL", "Tailwind CSS"],
       github: "https://github.com/Durgaprasad2408/Hands-United",
       live: "https://hands-united.vercel.app"
@@ -29,7 +27,6 @@ const Projects = () => {
       title: "NeuroEase - Mood Journal APP",
       description: "A mental health tracking platform with mood logging, journaling, and visual insights to help users understand and reflect on their emotional wellness.",
       image: '/Neuroease.png',
-      gradient: "from-yellow-500 to-orange-600",
       technologies: ["React", "Tailwind CSS", "FireBase", "SQL"],
       github: "https://github.com/Durgaprasad2408/Neuro",
       live: "https://neuroease-v1.vercel.app"
@@ -39,7 +36,6 @@ const Projects = () => {
       title: "Music Player",
       description: "A music streaming application replicating Spotify’s core features, including playlists, search, and real-time audio playback with an interactive UI.",
       image: "/Harmony.png",
-      gradient: "from-purple-500 to-indigo-600",
       technologies: ["React", "Tailwind CSS", "Supabase", "Vite"],
       github: "https://github.com/Durgaprasad2408/harmony",
       live: "https://harmony-green.vercel.app"
@@ -49,7 +45,6 @@ const Projects = () => {
       title: "MuseAI App",
       description: "An AI-powered writing assistant that helps users create, enhance, and refine stories, poems, and essays effortlessly and intelligently.",
       image: "/MuseAI.png",
-      gradient: "from-pink-500 to-red-600",
       technologies: ["React", "Supabase", "Bolt", "SQL"],
       github: "https://github.com/Durgaprasad2408/MuseAI",
       live: "https://museai-v1.vercel.app"
@@ -59,7 +54,6 @@ const Projects = () => {
       title: "Spotify Clone",
       description: "Spotify frontend clone featuring responsive design, music library browsing, playlist management, and interactive user interface for seamless music exploration.",
       image: "/Spotify.png",
-      gradient: "from-blue-500 to-cyan-600",
       technologies: ["React", "TailwindCSS", "", "CSS3"],
       github: "https://github.com/Durgaprasad2408/Spotify-Clone",
       live: "https://spotify-clone-kappa-drab.vercel.app"
@@ -84,14 +78,12 @@ const Projects = () => {
 
   const ProjectCard = ({ project, index }) => (
     <div className="project-card border rounded-xl" data-aos="fade-up" data-aos-duration="1000" data-aos-delay={100 * (index + 1)}>
-      <div className="project-img-container h-56 rounded-t-xl overflow-hidden relative">
+      <div className="project-img-container h-52 rounded-t-xl overflow-hidden relative">
         <img 
           src={project.image} 
           alt={project.title}
           className="w-full h-full object-cover transition-transform duration-300 hover:scale-110"
-        />
-        <div className={`absolute inset-0 bg-gradient-to-r ${project.gradient} opacity-80`}></div>
-        
+        />        
         <div className="project-overlay">
           <div className="text-white text-center px-4">
             
@@ -131,7 +123,7 @@ const Projects = () => {
   const hasMoreProjects = projectsData.length > visibleProjects.length;
 
   return (
-    <section id="projects" className="px-32 py-20 bg-white">
+    <section id="projects" className="px-32 py-20 bg-white scroll-mt-10">
       <div className="container mx-auto px-4">
         <div className="text-center mb-16" data-aos="fade-up">
           <h2 className="text-3xl font-bold mb-2">My <span className="gradient-text">Projects</span></h2>
